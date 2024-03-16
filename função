@@ -1,0 +1,53 @@
+
+   
+  
+    function calcularAreaTerreno(largura, comprimento){
+          
+            var area= largura * comprimento
+      
+            return area
+
+ }
+
+           //flexibilidade da passagem de parâmetro do Javascript
+
+           document.write(calcularAreaTerreno(7,7))
+           document.write(calcularAreaTerreno(7))
+           document.write(calcularAreaTerreno())
+
+
+       //Função Anônima
+
+           var area= function (largura, comprimento){
+
+           var area= largura * comprimento
+
+           return area
+
+}
+  
+
+          document.write(area(9,10))
+      
+      //crie e calcule a area do triangulo, quadrado, retângulo e losângo
+      
+      var base= prompt("Digite a base")
+      var altura= prompt("Digite a altura")
+      base= parsefloat(base)
+      altura= parsefloat(altura)
+      
+      function areaQuadrado(b, a){
+          var area = b * a
+          //document.write(area)
+          return area
+      }
+      
+      var area = 'valor da area do quadrado' + areaQuadrado
+      
+     
+       
+      
+  
+          
+          
+          
